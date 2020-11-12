@@ -93,7 +93,7 @@ namespace titanic
             int sum = 0;
             foreach (var e in hajo)
             {
-               sum  = e.tulelo + e.eltunt;
+               sum  += e.tulelo + e.eltunt;
             }
             Console.WriteLine($"3. feladat: {sum} fő");
             sump = sum;
